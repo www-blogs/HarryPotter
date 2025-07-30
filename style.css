@@ -370,3 +370,52 @@ nav a {
   .libros-grid img {
     width: 150px;
   }
+
+    @media (max-width: 390px) {
+  nav {
+    font-size: 10px;
+    gap: 1px;
+  }
+
+.titulo{
+  font-size: 15px;
+}  
+  .intro {
+    gap: 7px;
+    padding: 15px;
+  }
+
+  .intro img {
+    width: 110px;
+    top: 116px;
+  }
+
+  .texto {
+    font-size: 8px;
+    max-width: 220px;
+  }
+
+  .video {
+    width: 320px;
+    height: 180px;
+  }
+
+  .texto-iframe {
+    width: 320px;
+    font-size: 11px;
+    top: -40px;
+  }
+
+  .navegacion-peliculas img {
+    width: 120px;
+    top: -40px;
+  }
+
+  .libros-grid img {
+    width: 120px;
+  }
+}
+
+.contenedor-peliculas{
+  padding: 22px;
+}
