@@ -1,0 +1,372 @@
+
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  color: #fff;
+  background-image: url('Imagenes/Body\ howargts.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+ 
+}
+
+h1{
+  color: gold;
+  text-shadow: 
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+     text-align: center;
+}
+
+p{
+  color: #f9f9f9;
+  text-shadow: 
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+}
+
+h2,h3{
+  color: #ffffff;
+    color: white;
+  text-shadow: 
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+}
+header {
+  background-color: #1b1c1e;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+  
+}
+
+nav a:hover {
+  color: gold;
+}
+
+main.inicio {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.intro {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 30px;
+  max-width: 1000px;
+}
+
+.intro img {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.texto {
+  max-width: 600px;
+  text-align: justify;
+}
+
+.logo {
+  height: 60px;
+  width: auto;
+}
+
+footer {
+  background-color: #1b1c1e;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+  margin-top: 40px;
+}
+
+/* ==== SECCIÓN: PELÍCULAS ==== */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  color: #222;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #000;
+}
+
+.logo {
+  max-width: 250px;
+  margin-bottom: 10px;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a {
+  color: #ffffff;
+
+}
+
+.contenedor-peliculas {
+  padding: 70px;
+}
+
+.galeria-solo-imagenes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 25px;
+}
+
+.galeria-solo-imagenes a {
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+}
+
+.galeria-solo-imagenes a:hover {
+  transform: scale(1.05);
+}
+
+.galeria-solo-imagenes img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(92, 7, 7, 0.866);
+}
+
+.galeria-solo-imagenes h3 {
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+/*seccion de los libros*/
+
+.galeria-libros {
+  padding: 40px;
+  text-align: center;
+}
+
+.galeria-libros h1 {
+  color: gold;
+  margin-bottom: 30px;
+}
+
+.libros-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.libros-grid img {
+  width: 180px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+  transition: transform 0.3s;
+}
+
+.libros-grid img:hover {
+  transform: scale(1.05);
+}
+
+/*seccion de pelicula*/
+
+.video{
+  display: flexbox;
+  position: relative;
+  left: 2px;
+  height: 350px;
+  width: 600px;
+  margin: 0;
+}
+
+.texto-iframe{
+  display: flexbox;
+  position: relative;
+  top: 10px;
+  width: 300px;
+}
+
+
+.pelicula h1 {
+  text-align: center;
+  color: gold;
+  margin-bottom: 30px;
+  text-shadow: 
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+}
+
+.pelicula-contenido {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.descripcion {
+  max-width: 600px;
+  text-align: justify;
+}
+
+.navegacion-peliculas {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+  margin: 0;
+}
+
+.navegacion-peliculas img {
+  width: 150px;
+  margin: 3px;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.navegacion-peliculas img:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 1000px) {
+
+  /*barra de navegacion*/ 
+
+  nav {
+   font-size: 12px;
+    gap: 5px;
+    margin-top: 10px;
+  }
+  
+  /*inicio, portada*/
+
+  .intro {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: nowrap;
+  padding: 20px;
+  box-sizing: border-box;
+  
+}
+
+.intro img {
+  width: 140px;      
+  max-width: 768px;
+  height: auto;
+  border-radius: 8px;
+  flex-shrink: 0; 
+  position: relative;
+  top: 110px;
+}
+
+.texto {
+  flex: 1;
+  min-width: 210px;
+  max-width: 300px;
+  font-size: 8px;
+  line-height: 1.6;
+  text-align: justify;
+  flex-wrap: nowrap;
+}
+  /*Seccion de las peliculas*/
+
+  .contenedor-peliculas {
+  padding: 30px;
+  }
+
+  .galeria-solo-imagenes {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+  }
+
+  /*Seccion donde sale la pelicula*/
+
+  h1{
+    font-size: 20px;
+    padding: 10px;
+    text-align: center,justify;
+
+  }
+  .video {
+  width: 350px;
+  height: 200px;
+  position: relative;
+  top: -20px;
+  align-content: center;
+  }
+
+  .texto-iframe {
+    width:350px;
+    position: relative;
+    top: -50px;
+    text-align: center;
+    text-align: justify;
+
+  }
+
+  .pelicula-contenido {
+    flex-wrap: wrap;
+   
+  }
+
+  .descripcion {
+    max-width: 90%;
+    padding: 0 10px;
+  }
+
+  .navegacion-peliculas {
+    flex-direction: wrap;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .navegacion-peliculas img {
+    width: 150px;
+    position: relative;
+    top: -54px;
+  }
+}
+
+/*libros*/
+
+  .libros-grid img {
+    width: 150px;
+  }
